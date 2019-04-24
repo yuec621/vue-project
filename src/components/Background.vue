@@ -1,7 +1,7 @@
 <template>
     <div class="div">
         <h1>{{msg}}</h1>
-        <img src=""/>
+        <img src="../assert/background.jpg"/>
     </div>
 </template>
 <script>
@@ -12,6 +12,6 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped lang="sass">
 
 </style>
