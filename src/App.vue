@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <Background/>
+    <Background />
+    <Index />
   </div>
 </template>
 
 <script>
-import Background from './components/Background'
+import Background from '@/components/Background'
+import Index from '@/index/Index'
 
 export default {
   name: 'App',
   components: {
-    Background
+    Background,
+    Index
   }
 }
 </script>
